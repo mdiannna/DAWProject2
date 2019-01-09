@@ -12,7 +12,7 @@ namespace WebApplication2.Models
     {
         public virtual ICollection<Assignment> Assignments { get; set; }
         public virtual ICollection<Project> Projects { get; set; }
-        public virtual ICollection<Team> Teams { get; set; }
+        //public virtual ICollection<Team> Teams { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
 
 
